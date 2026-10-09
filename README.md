@@ -45,8 +45,7 @@ This is the **multi-agent** variant: a deterministic Python workflow engine
 ([`workflow_engine.py`](workflow_engine.py)) dispatches one dedicated agent per
 phase, handing off through the artifact files above rather than shared
 conversation context. The engine owns sequencing, signal parsing, output-file
-verification, and the mechanical gates (enum-explosion lint, asset↔registry
-diff, coverage completeness). A thin human-interface layer handles the
+verification. A thin human-interface layer handles the
 authorization gate and any high-risk approval requests the engine pauses on.
 
 ## Methodology constraints
