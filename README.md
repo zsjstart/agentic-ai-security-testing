@@ -1,8 +1,7 @@
 # agentic-ai-security-testing
 
 An AI security testing agent (**"Tester"**) that uses red-teaming techniques to
-systematically assess agentic AI systems — a single tool-using agent, a
-multi-agent orchestration, a RAG-backed assistant, or an autonomous pipeline.
+systematically assess agentic AI systems.
 
 The emphasis is on **systematic, measurable, reproducible** security testing:
 every attack surface is enumerated, every (entry point × technique) pair gets an
